@@ -56,7 +56,7 @@ box-sizing: border-box;
 padding: 0;
 }
 
-html {width: 1280px; height:auto;}
+html {min-width: 1280px; height:auto;}
 
 body {
 ox-sizing: border-box;
