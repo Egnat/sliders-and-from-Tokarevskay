@@ -50,46 +50,58 @@ height:auto
 }
 
 body {
+  /*margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; Можно подключить здесь, 
+  а можно в индекс.цсс и подключить его в хэде штмл*/
 ox-sizing:border-box;
 width: 1280p;
-height: 1300p;
-in-height: 100%;
-margin: 0;
+height: 1300px;
+min-height: 100%;
+padding: 0;
 background-image:url(../public/images/abstractfirebloom.png);
 background-attachment:fixed;
 background-size:cover;
 background:linear-gradient(180deg,#F3CE0D 0%,rgba(255,153,0,0.38) 92.71%,rgba(255,184,0,0.37) 99.99%,rgba(255,255,255,0) 100%)
 }
 
+/*code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+
 .header {
 /*padding-top:39p*/
-width:1280px;
-height:471px;
-background-image: url(https://www.w3schools.com/howto/img_lights_wide.jpg);
-background-size: cover;
-box-shadow:inset 1280px 844px rgba(0 0 0 / 70%);
-}
-
-.blur {
-width:1280px;
-height:471px;
-backdrop-filter: blur(7px); 
 }
 
 .filterImgHeader {
- position: absolute;
-    bottom: 509px; 
 margin:0;
-filter:brightness(0.9);
-box-shadow:inset 1280px 844px rgba(0 0 0 / 70%);
+filter:brightness(0.9)
 }
 
-imgHeader {
+.imgHeader {
 width:1280px;
 height:471px;
 ackground:linear-gradient(89.08deg,rgba(253,253,253,0) -1.63%,rgba(0,0,0,0.35) 50.55%,rgba(255,255,255,0.74) 91.26%);
-box-shadow:0 3px 34px 0 #17cf1578;
-box-shadow:inset 1280px 844px rgba(0 0 0 / 70%);
+box-shadow:0 3px 34px 0 #17cf1578
+}
+
+.filterImgHeader-2 {
+  position: absolute;
+  bottom: 277px;
+  left: 601px;
+ margin:0;
+filter:brightness(0.9) 
+}
+
+.imgHeader-2 {
+ width:600p;
+height:139px;
+ackground:linear-gradient(89.08deg,rgba(253,253,253,0) -1.63%,rgba(0,0,0,0.35) 50.55%,rgba(255,255,255,0.74) 91.26%);
+box-shadow:0 3px 34px 0 #17cf1578 
 }
 
 .shadowlogoContentHeaderNavig {
@@ -110,7 +122,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 width:1280px;
-bottom:776px;
+bottom:605px;
 z-index:1
 }
 
@@ -301,7 +313,7 @@ display:flex;
 align-items:center;
 width:67px;
 height:43px;
-bottom:786px;
+bottom:571px;
 left:907px;
 background-color:#8b0000;
 z-index:1;
@@ -311,7 +323,7 @@ cursor:pointer
 .form3__header {
   position: absolute;
   width: 300px;
-  bottom: 474px;
+  bottom: 282px;
   margin: 0 auto;
   z-index: 1;
 }
@@ -608,8 +620,7 @@ position:absolute;
 width:300px;
 height:200px;
 top:48px;
-left:22px;
-background-image: url(../public/images/1-fig.png);
+left:22px
 }
 
 .Slider-wrapper {
@@ -893,7 +904,7 @@ top: 249px;
 left: 67px;
 background-color: brown;
 object-fit: cover;
-/*background-image: url(../public/images/1-fig.png);*/
+background-image: url(../public/images/1-fig.png);
 z-index: 1;
 }
 
@@ -1008,84 +1019,6 @@ filter:brightness(0.7)
 position: absolute;
 top: 2956px;
 left: 401px;
-}
-
-.section-img {
- position: absolute;
- top: 4000px;
-}
-
-.section-img_continer{
-  width: 1110px;
-  margin: 0 auto;
-}
-
-.section-img__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.section-img__filter-img {
-  margin: 0;
-filter: brightness(0.7);
-}
-
-section-img__filter-img1 {
-  width: 187px;
-  height: 200px;
-  margin: 0;
-  background-image: url(../public/images/man1.jpg);
-  background-size: cover;
-  filter: brightness(0.7);
-}
-
-section-img__filter-img2 {
-   width: 187px;
-  height: 200px;
-  margin: 0;
-  background-image: url(../public/images/man2.png);
-  background-size: cover;
-  filter: brightness(0.7);
-}
-
-section-img__filter-img3 {
-   width: 187px;
-  height: 200px;
-  margin: 0;
-  background-image: url(../public/images/man3.png);
-  background-size: cover;
-  filter: brightness(0.7);
-}
-
-section-img__filter-img4 {
-   width: 187px;
-  height: 200px;
-  margin: 0;
-  background-image: url(../public/images/Rectangle.png);
-  background-size: cover;
-  filter: brightness(0.7);
-}
-
-section-img__filter-img5 {
-   width: 187px;
-  height: 200px;
-  margin: 0;
-  background-image: url(../public/images/Desctop.png);
-  background-size: cover;
-  filter: brightness(0.7);
-}
-
-.imgMan { padding-right: 15px; }
-
-.blur-imgMan {
-backdrop-filter: blur(5px);   
-}
-
-.img-man{
-     width: 241px;
-    height: 200px;
-padding-right: 15p;
 }
 
 /*Слайдер 3 автомат со стопом
