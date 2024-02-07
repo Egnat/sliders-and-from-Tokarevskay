@@ -154,12 +154,12 @@ function cropTitle(title, size) {
 }
    
 function initAutoplay() {
-//отключаем автомат.перелисывания фото
+/*отключаем автомат.перелисывания фото
   setInterval(() => {
       let curNumber = +sliderImages.querySelector(".active").dataset.index;
       let nextNumber = curNumber === images.length - 1? 0 : curNumber + 1;
       moveSlider(nextNumber);
-    }, options.autoplayInterval);//
+    }, options.autoplayInterval);*/
   }
 }
 
