@@ -55,7 +55,7 @@ let images = [{
     url:"https://images.unsplash.com/photo-1661630802936-5ff15855cd1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIwNjEyNjU&ixlib=rb-1.2.1&q=80&w=400",
     title:'buildings'
   }, {
-    url:'images/3-fig.png',
+    url:'public/images/3-fig.png',
     title:'city'
   }
   ];
